@@ -9,8 +9,8 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("SimpleAdjustableFairings")]
-[assembly: AssemblyCopyright("Copyright ©  2016")]
+[assembly: AssemblyProduct( "SimpleAdjustableFairings" )]
+[assembly: AssemblyCopyright("Copyright © 2021")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("685df61f-0282-451c-9353-88abeab0b5dc")]
+[assembly: Guid("fbb972b2-54ad-4174-a6e7-202e02645572")]
 
 // Version information for an assembly consists of the following four values:
 //
@@ -32,9 +32,5 @@ using System.Runtime.InteropServices;
 // You can specify all the values or you can default the Build and Revision Numbers
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-
-[assembly: AssemblyInformationalVersionAttribute("<%= git_version %>")]
-[assembly: AssemblyVersion("<%= mod_version.to_s(4) %>")]
-[assembly: AssemblyFileVersion("<%= mod_version.to_s(4) %>")]
-
-[assembly: KSPAssembly("SimpleAdjustableFairings", <%= mod_version.major %>, <%= mod_version.minor %>, <%= mod_version.patch %>)]
+[assembly: AssemblyVersion("1.0.0.0")]
+[assembly: AssemblyFileVersion("1.0.0.0")]
